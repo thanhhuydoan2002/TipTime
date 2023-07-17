@@ -10,7 +10,6 @@
         <item name="colorSecondaryVariant">@color/blue_dark</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
     <style name="Theme.TipTime" parent="Base.Theme.TipTime" />
