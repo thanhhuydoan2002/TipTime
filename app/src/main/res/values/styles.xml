@@ -2,13 +2,13 @@
 <resources>
 <!-- textView style -->
     <style name="Widget.TipTime.TextView" parent="Widget.MaterialComponents.TextView">
-        <item name="minHeight">48dp</item>
+        <item name="minHeight">@dimen/min_text_height</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:textAppearance">?attr/textAppearanceBody1</item>
     </style>
 <!-- compoundButton style -->
     <style name="Widget.TipTime.CompoundButton.Switch" parent="Widget.MaterialComponents.CompoundButton.Switch">
-        <item name="minHeight">48dp</item>
+        <item name="minHeight">@dimen/min_text_height</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:textAppearance">?attr/textAppearanceBody1</item>
     </style>
