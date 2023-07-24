@@ -16,7 +16,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/cost_of_service"
         app:srcCompat="@drawable/ic_store"
-        app:tint="@color/green" />
+        tools:ignore="ImageContrastCheck"
+        app:tint="?attr/colorPrimaryVariant" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/cost_of_service"
@@ -49,7 +50,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/service_question"
         app:srcCompat="@drawable/ic_service"
-        app:tint="@color/green" />
+        app:tint="?attr/colorPrimaryVariant"
+        tools:ignore="ImageContrastCheck" />
 
     <TextView
         android:id="@+id/service_question"
@@ -101,7 +103,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/round_up_switch"
         app:srcCompat="@drawable/ic_round_up"
-        app:tint="@color/green" />
+        app:tint="?attr/colorPrimaryVariant"
+        tools:ignore="ImageContrastCheck" />
 
     <com.google.android.material.switchmaterial.SwitchMaterial
 
